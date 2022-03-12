@@ -1,0 +1,27 @@
+/***********TAG Selector***************/
+h1{
+  color: red;
+}
+
+
+img:hover{
+  background-color: gold;
+}
+
+
+/*****************Class Selector*************/
+.emogi{
+  background-color: green;    /* has highter priority than tag selector******/
+}
+.circular{
+  border-radius: 100%;
+}
+.formula1{
+  border-radius: 120%
+}
+
+
+/*****************ID Selector*************/
+#heading{
+  color: blue;               /* has highter priority than tag selector******/
+}
